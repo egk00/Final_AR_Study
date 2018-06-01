@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="ARBook7" size="6.000000 3.728884" />
+    <ImageTarget name="ARBook6" size="6.000000 3.606250" />
+    <ImageTarget name="ARBook5" size="6.000000 3.435737" />
+    <ImageTarget name="ARBook4" size="6.000000 3.293750" />
+    <ImageTarget name="ARBook3" size="6.000000 3.412500" />
+    <ImageTarget name="ARBook2" size="6.000000 3.737500" />
+    <ImageTarget name="ARBook1" size="6.000000 3.297184" />
+  </Tracking>
+</QCARConfig>
