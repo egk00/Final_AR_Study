@@ -21,6 +21,9 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
 
     protected TrackableBehaviour mTrackableBehaviour;
 
+    //다면체 패널 배열
+    public GameObject[] panelUI;
+
     #endregion // PROTECTED_MEMBER_VARIABLES
 
     #region UNITY_MONOBEHAVIOUR_METHODS
@@ -54,14 +57,21 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
             newStatus == TrackableBehaviour.Status.TRACKED ||
             newStatus == TrackableBehaviour.Status.EXTENDED_TRACKED)
         {
-            Debug.Log("Trackable " + mTrackableBehaviour.TrackableName + " found");
+            //트랙킹 되었을 경우
+            Debug.Log("Trackable " + mTrackableBehaviour.TrackableName + " 찾았습니다.");
             OnTrackingFound();
+
+            //UI ON
+            panelUI[0].SetActive(true);
         }
         else if (previousStatus == TrackableBehaviour.Status.TRACKED &&
                  newStatus == TrackableBehaviour.Status.NO_POSE)
         {
             Debug.Log("Trackable " + mTrackableBehaviour.TrackableName + " lost");
             OnTrackingLost();
+
+            //UI OFF
+            panelUI[0].SetActive(false);
         }
         else
         {
