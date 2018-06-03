@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class Move_Scene : MonoBehaviour {
     public void Move_ARStudy_Scene()
     {
-        SceneManager.LoadScene("ARBook");
+        SceneManager.LoadScene("ARBook_Base");
     }
 
     public void GoToMainScene()

@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/EGK/ShapeNinja.unity
     guid: 24bbb417e8a22824c8730aeea38bb533
+  - enabled: 1
+    path: Assets/THL/2D_ShapesSmasher/Scene/ShapesSmasher.unity
+    guid: ee3b981fda4bc0e43b90723a1448374f
   m_configObjects: {}
