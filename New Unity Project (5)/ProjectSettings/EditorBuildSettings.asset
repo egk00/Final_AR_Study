@@ -9,6 +9,15 @@ EditorBuildSettings:
     path: 
     guid: 99c9720ab356a0642a771bea13969a05
   - enabled: 1
-    path: Assets/DataFiles/Scenes/ARBook_Base.unity
+    path: Assets/LowPolyNature/Scenes/MainScene.unity
+    guid: 098a34d9c68692342943067d2876f441
+  - enabled: 1
+    path: Assets/ARBook/Scenes/ARBook_Base.unity
     guid: 0f8e3c9067f84ca42afeba07bcc680da
+  - enabled: 1
+    path: Assets/ShapeShift/Scene/ShapeShift.unity
+    guid: a769a7f89f3ed9d46ade574990045766
+  - enabled: 1
+    path: Assets/EGK/ShapeNinja.unity
+    guid: 24bbb417e8a22824c8730aeea38bb533
   m_configObjects: {}

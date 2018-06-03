@@ -3,7 +3,26 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Blade
+  - Collectible
+  - ground
+  - Obstacle
+  - Cube
+  - Cylinder
+  - Cyboid
+  - Torus
+  - Sphere
+  - Diamond
+  - Triangularprism
+  - Star
+  - Hemisphere
+  - Cone
+  - Flatcone
+  - Hexagonalprism
+  - I
+  - l
+  - Cuboid
   layers:
   - Default
   - TransparentFX
