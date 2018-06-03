@@ -62,7 +62,23 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
             OnTrackingFound();
 
             //UI ON
-            panelUI[0].SetActive(true);
+            if(mTrackableBehaviour.TrackableName == "ARBook1")
+            {
+                panelUI[0].SetActive(true);
+            }
+            else if (mTrackableBehaviour.TrackableName == "ARBook2")
+            {
+                panelUI[0].SetActive(true);
+            }
+            else if (mTrackableBehaviour.TrackableName == "ARBook3")
+            {
+                panelUI[0].SetActive(true);
+            }
+            else if (mTrackableBehaviour.TrackableName == "ARBook5")
+            {
+                panelUI[0].SetActive(true);
+            }
+
         }
         else if (previousStatus == TrackableBehaviour.Status.TRACKED &&
                  newStatus == TrackableBehaviour.Status.NO_POSE)
@@ -71,7 +87,22 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
             OnTrackingLost();
 
             //UI OFF
-            panelUI[0].SetActive(false);
+            if (mTrackableBehaviour.TrackableName == "ARBook1")
+            {
+                panelUI[0].SetActive(false);
+            }
+            else if (mTrackableBehaviour.TrackableName == "ARBook2")
+            {
+                panelUI[0].SetActive(false);
+            }
+            else if (mTrackableBehaviour.TrackableName == "ARBook3")
+            {
+                panelUI[0].SetActive(false);
+            }
+            else if (mTrackableBehaviour.TrackableName == "ARBook5")
+            {
+                panelUI[0].SetActive(false);
+            }
         }
         else
         {

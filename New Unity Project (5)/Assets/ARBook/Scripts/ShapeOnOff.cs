@@ -24,6 +24,12 @@ public class ShapeOnOff : MonoBehaviour {
         Shapes[1].SetActive(false);
         Shapes[2].SetActive(false);
 
+        if(Shapes.Length >= 4)
+            Shapes[3].SetActive(false);
+
+        if (Shapes.Length >= 5)
+            Shapes[4].SetActive(false);
+
         //클릭 소리
         ARBookAudioSource.PlayOneShot(audioClipArray[0]);
     }
@@ -37,18 +43,68 @@ public class ShapeOnOff : MonoBehaviour {
         Shapes[1].SetActive(true);
         Shapes[2].SetActive(false);
 
+        if (Shapes.Length >= 4)
+            Shapes[3].SetActive(false);
+
+        if (Shapes.Length >= 5)
+            Shapes[4].SetActive(false);
+
         //클릭 소리
         ARBookAudioSource.PlayOneShot(audioClipArray[0]);
     }
 
     public void CubeOn()
     {
-        //클릭 중인 도형 2
+        //클릭 중인 도형 3
         ShapeIndex = 2;
 
         Shapes[0].SetActive(false);
         Shapes[1].SetActive(false);
         Shapes[2].SetActive(true);
+
+        if (Shapes.Length >= 4)
+            Shapes[3].SetActive(false);
+
+        if (Shapes.Length >= 5)
+            Shapes[4].SetActive(false);
+
+        //클릭 소리
+        ARBookAudioSource.PlayOneShot(audioClipArray[0]);
+    }
+
+    public void ShapeOnOF4()
+    {
+        //클릭 중인 도형 4
+        ShapeIndex = 3;
+
+        Shapes[0].SetActive(false);
+        Shapes[1].SetActive(false);
+        Shapes[2].SetActive(false);
+
+        if (Shapes.Length >= 4)
+            Shapes[3].SetActive(true);
+
+        if (Shapes.Length >= 5)
+            Shapes[4].SetActive(false);
+
+        //클릭 소리
+        ARBookAudioSource.PlayOneShot(audioClipArray[0]);
+    }
+
+    public void ShapeOnOF5()
+    {
+        //클릭 중인 도형 4
+        ShapeIndex = 4;
+
+        Shapes[0].SetActive(false);
+        Shapes[1].SetActive(false);
+        Shapes[2].SetActive(false);
+
+        if (Shapes.Length >= 4)
+            Shapes[3].SetActive(false);
+
+        if (Shapes.Length >= 5)
+            Shapes[4].SetActive(true);
 
         //클릭 소리
         ARBookAudioSource.PlayOneShot(audioClipArray[0]);
@@ -85,6 +141,8 @@ public class ShapeOnOff : MonoBehaviour {
         //설명 설명 시작
         ARBookAudioSource.PlayOneShot(audioClipArray[1]);
     }
+
+
 
     private void Update()
     {
