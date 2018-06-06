@@ -1,11 +1,14 @@
 Android
 PlayerPath?
-C:/Users/1/Desktop/ARSTUDY0604_fin.apk
+C:/Users/1/Desktop/ARSTUDY0606_01.apk
 SceneListBegin?
+Assets/ARBook/Scenes/ARGround.unity
 Assets/LowPolyNature/Scenes/MainScene.unity
 Assets/ARBook/Scenes/ARBook_Base.unity
 Assets/ShapeShift/Scene/ShapeShift.unity
 Assets/EGK/ShapeNinja.unity
+Assets/THL/2D_ShapesSmasher/Scene/ShapesSmasher.unity
+Assets/ARBook/Scenes/ARQuiz.unity
 SceneListEnd?
 a47deb8ed22aaa412c0e8dd2d92a4a14 Assembly-CSharp.dll:.CFX_LightFlicker
 11a7a03b0e4c6102248e6d75a831de72 Assembly-CSharp.dll:.AudioManager
@@ -150,6 +153,7 @@ fd2c4262b5bb8e1bd7697031fe4ba2c6 Assembly-CSharp.dll:.FixedJoystick
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:TMPro.TMP_PhoneNumberValidator
 e24608184462e0b4b739560b50ae2f5c Assembly-CSharp.dll:.PlayerController
 3cec46facae45921257202a20c50db64 Assembly-CSharp.dll:TMPro.Examples.WarpTextExample
+70928e33b86a58d2187202f306f07370 Assembly-CSharp.dll:.CreateCube
 f4bd1aee67eeef7953cce6c44588b3d7 TextMeshPro-2017.3-1.0.56-Runtime.dll:TMPro.TextContainer
 8e879b98cad4aa17a0beef746daecd35 TextMeshPro-2017.3-1.0.56-Runtime.dll:TMPro.TextMeshPro
 cdb4459900f4743ae0e8ca5a2c3a821a TextMeshPro-2017.3-1.0.56-Runtime.dll:TMPro.TextMeshProUGUI
@@ -179,6 +183,7 @@ bc68edb0af574bf79f9550ead8ebae5c UnityEngine.HoloLens.dll:UnityEngine.Audio.Audi
 c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingCollider
 45f3431f0103c41611e8d4eec3d439df UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingRenderer
 733c9133f7aab76617ad1123e1e2d2f0 Assembly-CSharp.dll:.SaveLoad
+45b33fe42b90efe91c332eea78590806 Assembly-CSharp.dll:.ARVideo_Cylinder
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp-firstpass.dll:UnityStandardAssets.Utility.DragRigidbody
 63d6ceed711f3679d7fcea83001900eb Assembly-CSharp.dll:.Axe
 50a0fa002cfc67638c87a901e46b763e Assembly-CSharp.dll:TMPro.Examples.TMP_TextSelector_B

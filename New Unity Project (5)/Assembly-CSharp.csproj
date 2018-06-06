@@ -59,8 +59,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\ARBook\Scripts\ARVideo_Cylinder.cs" />
+    <Compile Include="Assets\ARBook\Scripts\BigQuiz_CreateCube.cs" />
+    <Compile Include="Assets\ARBook\Scripts\CreateCube.cs" />
+    <Compile Include="Assets\ARBook\Scripts\ExplationOnOff.cs" />
+    <Compile Include="Assets\ARBook\Scripts\GoToMain.cs" />
+    <Compile Include="Assets\ARBook\Scripts\Move_Scene.cs" />
+    <Compile Include="Assets\ARBook\Scripts\My_VirtualButtonScript.cs" />
     <Compile Include="Assets\ARBook\Scripts\ShapeOnOff.cs" />
-    <Compile Include="Assets\DataFiles\Scripts\Move_Scene.cs" />
+    <Compile Include="Assets\ARBook\Scripts\UIOnOff.cs" />
     <Compile Include="Assets\DataFiles\Scripts\RotateAround.cs" />
     <Compile Include="Assets\EGK\furit_ninja\Scripts\AudioManager.cs" />
     <Compile Include="Assets\EGK\furit_ninja\Scripts\blade.cs" />
@@ -84,7 +91,7 @@
     <Compile Include="Assets\EGK\NextScene.cs" />
     <Compile Include="Assets\EGK\Settings_Button_Controll.cs" />
     <Compile Include="Assets\EGK\SettingsMenu.cs" />
-    <Compile Include="Assets\GoToMain.cs" />
+    <Compile Include="Assets\HealthBar.cs" />
     <Compile Include="Assets\LowPolyNature\Scripts\Axe.cs" />
     <Compile Include="Assets\LowPolyNature\Scripts\Crate.cs" />
     <Compile Include="Assets\LowPolyNature\Scripts\DamageSource.cs" />
@@ -92,7 +99,6 @@
     <Compile Include="Assets\LowPolyNature\Scripts\Food.cs" />
     <Compile Include="Assets\LowPolyNature\Scripts\GameManager.cs" />
     <Compile Include="Assets\LowPolyNature\Scripts\Gem.cs" />
-    <Compile Include="Assets\LowPolyNature\Scripts\HealthBar.cs" />
     <Compile Include="Assets\LowPolyNature\Scripts\HUD.cs" />
     <Compile Include="Assets\LowPolyNature\Scripts\Inventory.cs" />
     <Compile Include="Assets\LowPolyNature\Scripts\InventoryItem.cs" />
@@ -179,9 +185,11 @@
     <None Include="Assets\Vuforia\Shaders\CameraDiffuse.shader" />
     <None Include="Assets\EGK\JMO Assets\Cartoon FX\Shaders\CFXM_MobileParticleAdd_Alpha8.shader" />
     <None Include="Assets\Vuforia\Shaders\VertexLitWithZ.shader" />
+    <None Include="Assets\StreamingAssets\Vuforia\ARTreeDATABASE.xml" />
     <None Include="Assets\EGK\JMO Assets\Cartoon FX\CartoonFX Free.txt" />
     <None Include="Assets\Vuforia\Shaders\OutlineOpaque.shader" />
-    <None Include="Assets\EGK\Simple UI\Fonts\OFL.txt" />
+    <None Include="Assets\Simple UI\Fonts\OFL.txt" />
+    <None Include="Assets\StreamingAssets\Vuforia\ARBigQuiz.xml" />
     <None Include="Assets\StreamingAssets\Vuforia\VuforiaMars_Object_OT.xml" />
     <None Include="Assets\PrimitivePlus\Documentation\ReadMe.txt" />
     <None Include="Assets\EGK\JMO Assets\Cartoon FX Easy Editor\CartoonFX Easy Editor Readme.txt" />
@@ -189,6 +197,7 @@
     <None Include="Assets\Share Resource\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile.shader" />
     <None Include="Assets\EGK\JMO Assets\!JMO Assets Readme.txt" />
     <None Include="Assets\StreamingAssets\Vuforia\VuforiaMars_Images.xml" />
+    <None Include="Assets\StreamingAssets\Vuforia\ARExploded.xml" />
     <None Include="Assets\StreamingAssets\Vuforia\ARBook_Finsh_DB.xml" />
     <None Include="Assets\Vuforia\Shaders\BrightTexture.shader" />
     <None Include="Assets\StreamingAssets\Vuforia\VuforiaMars_VuMark.xml" />

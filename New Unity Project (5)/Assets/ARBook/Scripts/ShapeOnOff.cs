@@ -24,12 +24,6 @@ public class ShapeOnOff : MonoBehaviour {
         Shapes[1].SetActive(false);
         Shapes[2].SetActive(false);
 
-        if(Shapes.Length >= 4)
-            Shapes[3].SetActive(false);
-
-        if (Shapes.Length >= 5)
-            Shapes[4].SetActive(false);
-
         //클릭 소리
         ARBookAudioSource.PlayOneShot(audioClipArray[0]);
     }
@@ -43,12 +37,6 @@ public class ShapeOnOff : MonoBehaviour {
         Shapes[1].SetActive(true);
         Shapes[2].SetActive(false);
 
-        if (Shapes.Length >= 4)
-            Shapes[3].SetActive(false);
-
-        if (Shapes.Length >= 5)
-            Shapes[4].SetActive(false);
-
         //클릭 소리
         ARBookAudioSource.PlayOneShot(audioClipArray[0]);
     }
@@ -61,12 +49,6 @@ public class ShapeOnOff : MonoBehaviour {
         Shapes[0].SetActive(false);
         Shapes[1].SetActive(false);
         Shapes[2].SetActive(true);
-
-        if (Shapes.Length >= 4)
-            Shapes[3].SetActive(false);
-
-        if (Shapes.Length >= 5)
-            Shapes[4].SetActive(false);
 
         //클릭 소리
         ARBookAudioSource.PlayOneShot(audioClipArray[0]);
@@ -133,16 +115,6 @@ public class ShapeOnOff : MonoBehaviour {
 
         shapeState = 0;
     }
-
-    public void DescriptionSound()
-    {
-        //클릭 소리
-        ARBookAudioSource.PlayOneShot(audioClipArray[0]);
-        //설명 설명 시작
-        ARBookAudioSource.PlayOneShot(audioClipArray[1]);
-    }
-
-
 
     private void Update()
     {

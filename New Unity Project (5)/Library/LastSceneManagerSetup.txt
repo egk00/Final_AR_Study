@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/LowPolyNature/Scenes/MainScene.unity
+- path: Assets/ARBook/Scenes/ARBigQuiz.unity
   isLoaded: 1
   isActive: 1

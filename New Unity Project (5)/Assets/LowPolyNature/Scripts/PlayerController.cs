@@ -42,6 +42,7 @@ public class PlayerController : MonoBehaviour
 
     #endregion
 
+    //조이스틱
     public Joystick joystick;
 
     public float h;
@@ -51,6 +52,7 @@ public class PlayerController : MonoBehaviour
     // Use this for initialization
     void Start()
     {
+        //애니메이션 가져오기
         _animator = GetComponent<Animator>();
         _characterController = GetComponent<CharacterController>();
         Inventory.ItemUsed += Inventory_ItemUsed;
@@ -123,7 +125,7 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    private void DropCurrentItem()
+    public void DropCurrentItem()
     {
         _animator.SetTrigger("tr_drop");
 
@@ -140,15 +142,6 @@ public class PlayerController : MonoBehaviour
             Invoke("DoDropItem", 0.25f);
         }
 
-    }
-
-    public void DoDropItem()
-    {
-
-        // Remove Rigidbody
-        Destroy((mCurrentItem as MonoBehaviour).GetComponent<Rigidbody>());
-
-        mCurrentItem = null;
     }
 
     #endregion
@@ -361,6 +354,23 @@ public class PlayerController : MonoBehaviour
             Hud.CloseMessagePanel();
             mInteractItem = null;
         }
+    }
+
+    public void pickUpItem()
+    {
+        // Common interact method
+        mInteractItem.OnInteract();
+
+        // TODO: Check to move this logic to a better location
+        if (mInteractItem is InventoryItemBase)
+        {
+            Inventory.AddItem(mInteractItem as InventoryItemBase);
+            (mInteractItem as InventoryItemBase).OnPickup();
+        }
+
+        Hud.CloseMessagePanel();
+
+        mInteractItem = null;
     }
 
 }

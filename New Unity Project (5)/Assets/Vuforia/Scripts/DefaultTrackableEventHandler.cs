@@ -78,6 +78,20 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
             {
                 panelUI[0].SetActive(true);
             }
+            else if (mTrackableBehaviour.TrackableName == "ShapeTree")
+            {
+                panelUI[0].SetActive(true);
+            }
+            else if (mTrackableBehaviour.TrackableName == "ARExploded")
+            {
+                panelUI[0].SetActive(true);
+            }
+            else if (mTrackableBehaviour.TrackableName == "ARBigQuiz")
+            {
+                panelUI[0].SetActive(true);
+                panelUI[1].SetActive(true);
+            }
+            //여기 추가
 
         }
         else if (previousStatus == TrackableBehaviour.Status.TRACKED &&
@@ -102,6 +116,19 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
             else if (mTrackableBehaviour.TrackableName == "ARBook5")
             {
                 panelUI[0].SetActive(false);
+            }
+            else if (mTrackableBehaviour.TrackableName == "ShapeTree")
+            {
+                panelUI[0].SetActive(false);
+            }
+            else if (mTrackableBehaviour.TrackableName == "ARExploded")
+            {
+                panelUI[0].SetActive(false);
+            }
+            else if (mTrackableBehaviour.TrackableName == "ARBigQuiz")
+            {
+                panelUI[0].SetActive(false);
+                panelUI[1].SetActive(false);
             }
         }
         else
