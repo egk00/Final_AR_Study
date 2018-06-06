@@ -1,14 +1,15 @@
 Android
 PlayerPath?
-C:/Users/1/Desktop/ARSTUDY0606_01.apk
+C:/Users/1/Desktop/ARSTUDY0607_01.apk
 SceneListBegin?
-Assets/ARBook/Scenes/ARGround.unity
 Assets/LowPolyNature/Scenes/MainScene.unity
+Assets/ARBook/Scenes/ARExploded.unity
 Assets/ARBook/Scenes/ARBook_Base.unity
 Assets/ShapeShift/Scene/ShapeShift.unity
 Assets/EGK/ShapeNinja.unity
 Assets/THL/2D_ShapesSmasher/Scene/ShapesSmasher.unity
 Assets/ARBook/Scenes/ARQuiz.unity
+Assets/ARBook/Scenes/ARBigQuiz.unity
 SceneListEnd?
 a47deb8ed22aaa412c0e8dd2d92a4a14 Assembly-CSharp.dll:.CFX_LightFlicker
 11a7a03b0e4c6102248e6d75a831de72 Assembly-CSharp.dll:.AudioManager
@@ -113,6 +114,7 @@ f61c0793411f10cf5fbfa1473fef5ef2 UnityEngine.UI.dll:UnityEngine.UI.ToggleGroup
 8f564b6114d2166f36eb6f85dc90d831 Assembly-CSharp.dll:.FirstAid
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.ItemDragHandler
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.GoToMain
+a999cc8d97050cfe6a4d61297faae6d9 Assembly-CSharp.dll:.UIOnOff
 765037da3d8faeee91e39d672b924c61 Assembly-CSharp.dll:.EnvMapAnimator
 6c156248975c65e334daa4cbfba64bd1 Assembly-CSharp-firstpass.dll:UnityStandardAssets.Utility.TimedObjectActivator
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Move_Scene
@@ -264,6 +266,7 @@ fd2c4262b5bb8e1bd7697031fe4ba2c6 Assembly-CSharp.dll:.FloatingJoystick
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.gradientbackground
 2cc21da3b79572d34509524b11f48626 Assembly-CSharp.dll:.Fruit
 b9332c0eee630779376843b5343eb250 Assembly-CSharp.dll:TMPro.Examples.TMP_TextInfoDebugTool
+5a11fbefe7ba347a20a7da6e720a1b37 Assembly-CSharp.dll:.BigQuiz_CreateCube
 a2efb0db652b8114d1ae7dd9a600d626 Assembly-CSharp-firstpass.dll:UnityStandardAssets.CrossPlatformInput.InputAxisScrollbar
 fe76270bd84ec3b6f2f6f92c69cf69da Assembly-CSharp-firstpass.dll:UnityStandardAssets.CrossPlatformInput.AxisTouchButton
 cf034d56006fab83d80d3d2c8d2b4a6b Assembly-CSharp.dll:.CFX_Demo_RandomDir
@@ -287,10 +290,12 @@ d672cee35261f9935d5ce974c746730f TextMeshPro-2017.3-1.0.56-Runtime.dll:TMPro.TMP
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:TMPro.Examples.TMP_TextSelector_A
 b900ead596b2fb1093b31cb63a678767 Assembly-CSharp.dll:TMPro.Examples.TextMeshProFloatingText
 b34e6a77733cffdc5db1229bb1a22d04 Assembly-CSharp.dll:.Score
+6348fae76088a297c6ccf3a2f0c906f5 Assembly-CSharp.dll:.ExplationOnOff
 ab33636d6ab69a357f553ed12c5ccacc Assembly-CSharp.dll:.CFX_Demo_RotateCamera
 a7d3c6c6948d99dd4116e659ddcf5ac4 Assembly-CSharp-firstpass.dll:UnityStandardAssets.CrossPlatformInput.ButtonHandler
 dad1c1272dfe1898bb613dcb2631bcce Assembly-CSharp.dll:TMPro.Examples.Benchmark02
 a90e94673f50d2237c1b971c138660c6 Assembly-CSharp-firstpass.dll:UnityStandardAssets.Utility.AutoMoveAndRotate
+ab7d6054caef349266d50a250937e7ea Assembly-CSharp.dll:.My_VirtualButtonScript
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp-firstpass.dll:.ForcedReset
 57fde8e76fc7bce23deb0e799d336be7 Assembly-CSharp-firstpass.dll:UnityStandardAssets.Utility.SmoothFollow
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.NextScene
